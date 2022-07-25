@@ -1,0 +1,23 @@
+{
+  "name": "godel-chime-poc",
+  "version": "1.0.0",
+  "description": "Godel Amazon Chime POC",
+  "main": "index.js",
+  "scripts": {
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "install:all": "npm run install:client && npm run install:server",
+    "start:client": "cd client && npm run start",
+    "start:server": "cd server && npm run start",
+    "start": "npm run start:client && npm run start:server",
+    "lint:client": "cd client && npm run lint:fix",
+    "lint:server": "cd client && npm run lint:fix",
+    "lint": "npm run lint:client && npm run lint:server"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kumodi/godel-chime-poc.git"
+  }
+}
